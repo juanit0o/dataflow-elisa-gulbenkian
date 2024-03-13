@@ -1,2 +1,6 @@
-# dataflow-elisa-gulbenkian
-Report made for a course in designing a better workflow and infrastructure for the serology made within Instituto Gulbenkian de Ciência (IGC)
+# Dataflow and Database Optimization 
+This report was created for a project where I was tasked with briefly explaining how I would optimize and design a better workflow/infrastructure for the serology process within Instituto Gulbenkian de Ciência (IGC). This meant designing a database schema and integrating it with historical clinical data, as well as automating the data processing and quality control while enhancing the interface to facilitate data analysis. The development of the actual design was outside the scope of this project.
+
+# Abstract
+Currently, the dataflow at the Instituto Gulbenkian de Ciência is still processed somewhat manually and without taking advantage of more appropriate approaches such as relational databases or automatic data processing.  The aim of this report will be to reflect on various approaches that can minimise the existing difficulty, thus increasing the efficiency of laboratory work in terms of management and storage of the data produced by the analysing ELISA assays. This will be reflected in an increase both in terms of productivity, because it is easier to access the data you want to use, in security, as the data will be stored in a database protected with specific credentials for different levels of permission or even for the issue of version control, so that you never work on outdated versions. This last problem was one of the most mentioned by the researchers due to the exchange of files between
+employees, which leads to inaccuracies.
